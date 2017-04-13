@@ -8,7 +8,7 @@
   <artifactId>project</artifactId>
   <version>0.1-SNAPSHOT</version>
   <name>iPaaS Integrations :: Blitzkrieg Bop</name>
-  <description>They&#39;re forming in straight line&#10;They&#39;re going through a tight wind&#10;The kids are losing their minds&#10;The blitzkrieg bop&#10;&#10;They&#39;re piling in the back seat&#10;They&#39;re generating steam heat&#10;Pulsating to the back beat&#10;The blitzkrieg bop</description>
+  <description>Hey ho, let&#39;s go! hey ho, let&#39;s go!&#10;Hey ho, let&#39;s go! hey ho, let&#39;s go!&#10;&#10;They&#39;re forming in straight line&#10;They&#39;re going through a tight wind&#10;The kids are losing their minds&#10;The blitzkrieg bop&#10;&#10;They&#39;re piling in the back seat&#10;They&#39;re generating steam heat&#10;Pulsating to the back beat&#10;The blitzkrieg bop&#10;&#10;Hey ho, let&#39;s go&#10;Shoot&#39;em in the back now&#10;What they want, I don&#39;t know&#10;They&#39;re all revved up and ready to go</description>
   <packaging>jar</packaging>
 
   <properties>
@@ -97,12 +97,12 @@
     <!-- connectors used in this integration -->
     <dependency>
       <groupId>com.redhat.ipaas</groupId>
-      <artifactId>timer-connector</artifactId>
+      <artifactId>twitter-mention-connector</artifactId>
       <version>0.3.5</version>
     </dependency>
     <dependency>
       <groupId>com.redhat.ipaas</groupId>
-      <artifactId>http-get-connector</artifactId>
+      <artifactId>salesforce-upsert-contact-connector</artifactId>
       <version>0.3.5</version>
     </dependency>
 
