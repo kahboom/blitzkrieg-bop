@@ -2,6 +2,6 @@
 flows:
 - steps:
   - kind: endpoint
-    uri: periodic-timer:every?period=10000
+    uri: twitter-mention:?accessToken=&accessTokenSecret=&consumerKey=&consumerSecret=
   - kind: endpoint
-    uri: http-get:?httpUri=/ramones
+    uri: salesforce-upsert-contact:?clientId=&clientSecret=&loginUrl=https://login.salesforce.com&refreshToken=
